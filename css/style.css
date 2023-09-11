@@ -34,3 +34,23 @@ h1{
 .giallo{
     background-color: yellow;
 }
+
+.lista{
+    padding-inline-start: 10px;
+}
+
+#lorem{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;
+}
+
+th {
+    background-color: rgba(3, 170, 226, 0.819);
+    color: white;
+  }
+
+  tr:nth-child(odd){
+    background-color: rgb(150, 209, 232)} 
+
