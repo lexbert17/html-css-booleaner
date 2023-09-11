@@ -1,6 +1,6 @@
 .sfondo{
     height: 110px ;
-    background-image: url(../img/pattern.png);
+    background-image: url('../img/pattern.png');
     background-size: contain;
     background-color: rgb(14, 142, 228)
     
@@ -13,7 +13,7 @@
     padding-top: 50px;
     size: 70px;
 }
-
+/* titolo */
 h1{
     margin-bottom: 0;
 }
@@ -31,6 +31,7 @@ h1{
     margin-top: 0;
 }
 
+/* frase evidenziata */
 .giallo{
     background-color: yellow;
 }
@@ -39,18 +40,38 @@ h1{
     padding-inline-start: 10px;
 }
 
+/* tabella */
 #lorem{
     border-collapse: collapse;
     width: 100%;
     text-align: center;
     table-layout: fixed;
 }
-
+/* prima colonna */
 th {
     background-color: rgba(3, 170, 226, 0.819);
     color: white;
-  }
+}
+/* effetto zebrato azzurro */
+tr:nth-child(odd){
+    background-color: rgb(150, 209, 232)
+} 
+/* /tabella */
 
-  tr:nth-child(odd){
-    background-color: rgb(150, 209, 232)} 
+/* immagine monitor */
+.immagine{
+     height: 200px;
+     background-image: url('../img/monitor.jpg');
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+    font-weight: bold
+}
+
+/* immagine graph */
+.graph{
+    background-image: url('../img/graph.jpg')
+
+}
+
 
