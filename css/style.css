@@ -1,0 +1,22 @@
+.sfondo{
+    height: 110px ;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-color: rgb(14, 142, 228)
+    
+}
+
+#logo{
+    height: 40px;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    size: 70px;
+    
+   
+    
+
+    
+  
+   
+
+}
